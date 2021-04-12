@@ -24,11 +24,29 @@ const routes = [
     redirect: "/uug",
     component: Layout,
     children: [
+      // {
+      //   path: "/uugData",
+      //   name: "UUG数据",
+      //   icon: "iconfont el-icon-myfabiaowenzhang",
+      //   component: () => import("../views/UUG/uug.vue"),
+      // },
       {
-        path: "/uugData",
-        name: "UUG数据",
+        path: "/uug/graph-size",
+        name: "Graph size",
         icon: "iconfont el-icon-myfabiaowenzhang",
-        component: () => import("../views/UUG/uug.vue"),
+        component: () => import("../views/UUG/graph-size.vue"),
+      },
+      {
+        path: "/uug/degree",
+        name: "Degree",
+        icon: "iconfont el-icon-myfabiaowenzhang",
+        component: () => import("../views/UUG/degree.vue"),
+      },
+      {
+        path: "/uug/edg-weight",
+        name: "Edg Weight",
+        icon: "iconfont el-icon-myfabiaowenzhang",
+        component: () => import("../views/UUG/edg-weight.vue"),
       },
     ]
   },

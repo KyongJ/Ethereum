@@ -8,8 +8,12 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "axios": "^0.21.1",
     "core-js": "^3.6.5",
+    "echarts": "^5.0.2",
+    "echarts-stat": "^1.2.0",
     "element-ui": "^2.15.1",
+    "node-sass": "^5.0.0",
     "vue": "^2.6.11",
     "vue-router": "^3.5.1",
     "vuex": "^3.6.2"
@@ -21,6 +25,7 @@
     "babel-eslint": "^10.1.0",
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^6.2.2",
+    "sass-loader": "^7.0.3",
     "vue-template-compiler": "^2.6.11"
   },
   "eslintConfig": {
