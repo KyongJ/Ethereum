@@ -1,0 +1,153 @@
+{
+  "flag": true,
+  "code": 200,
+  "message": "成功",
+  "data": {
+    "data": [
+      {
+        "id": 1,
+        "timeWindow": 1,
+        "newTxNum": 28.732128,
+        "oldTxNum": 0
+      },
+      {
+        "id": 2,
+        "timeWindow": 2,
+        "newTxNum": 14.740595,
+        "oldTxNum": 190.1809
+      },
+      {
+        "id": 3,
+        "timeWindow": 3,
+        "newTxNum": 8.332814,
+        "oldTxNum": 170.30301
+      },
+      {
+        "id": 4,
+        "timeWindow": 4,
+        "newTxNum": 7.7050266,
+        "oldTxNum": 34.214542
+      },
+      {
+        "id": 5,
+        "timeWindow": 5,
+        "newTxNum": 6.8260827,
+        "oldTxNum": 26.024609
+      },
+      {
+        "id": 6,
+        "timeWindow": 6,
+        "newTxNum": 6.065294,
+        "oldTxNum": 24.445948
+      },
+      {
+        "id": 7,
+        "timeWindow": 7,
+        "newTxNum": 5.259379,
+        "oldTxNum": 13.305973
+      },
+      {
+        "id": 8,
+        "timeWindow": 8,
+        "newTxNum": 3.8988745,
+        "oldTxNum": 13.709523
+      },
+      {
+        "id": 9,
+        "timeWindow": 9,
+        "newTxNum": 3.871603,
+        "oldTxNum": 14.754385
+      },
+      {
+        "id": 10,
+        "timeWindow": 10,
+        "newTxNum": 4.0153174,
+        "oldTxNum": 15.407524
+      },
+      {
+        "id": 11,
+        "timeWindow": 11,
+        "newTxNum": 4.304359,
+        "oldTxNum": 11.478979
+      },
+      {
+        "id": 12,
+        "timeWindow": 12,
+        "newTxNum": 4.2156434,
+        "oldTxNum": 8.169276
+      },
+      {
+        "id": 13,
+        "timeWindow": 13,
+        "newTxNum": 4.46626,
+        "oldTxNum": 2.9906878
+      },
+      {
+        "id": 14,
+        "timeWindow": 14,
+        "newTxNum": 4.294308,
+        "oldTxNum": 2.0804987
+      },
+      {
+        "id": 15,
+        "timeWindow": 15,
+        "newTxNum": 4.162192,
+        "oldTxNum": 1.63468
+      },
+      {
+        "id": 16,
+        "timeWindow": 16,
+        "newTxNum": 3.9881303,
+        "oldTxNum": 1.5412558
+      },
+      {
+        "id": 17,
+        "timeWindow": 17,
+        "newTxNum": 3.3825326,
+        "oldTxNum": 1.8296965
+      },
+      {
+        "id": 18,
+        "timeWindow": 18,
+        "newTxNum": 3.813583,
+        "oldTxNum": 0.93157876
+      },
+      {
+        "id": 19,
+        "timeWindow": 19,
+        "newTxNum": 3.5704057,
+        "oldTxNum": 1.4675186
+      },
+      {
+        "id": 20,
+        "timeWindow": 20,
+        "newTxNum": 3.3920264,
+        "oldTxNum": 1.8238298
+      },
+      {
+        "id": 21,
+        "timeWindow": 21,
+        "newTxNum": 2.8447213,
+        "oldTxNum": 2.9727254
+      },
+      {
+        "id": 22,
+        "timeWindow": 22,
+        "newTxNum": 2.6222396,
+        "oldTxNum": 3.1651728
+      },
+      {
+        "id": 23,
+        "timeWindow": 23,
+        "newTxNum": 2.6369255,
+        "oldTxNum": 3.298616
+      },
+      {
+        "id": 24,
+        "timeWindow": 24,
+        "newTxNum": 2.6036108,
+        "oldTxNum": 3.476349
+      }
+    ]
+  }
+}

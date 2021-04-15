@@ -29,8 +29,6 @@ export default {
         },
         grid: {
           left: "0%",
-      
-    
           containLabel: true,
         },
         toolbox: {
@@ -39,7 +37,7 @@ export default {
           },
         },
         xAxis: {
-            name: "time Window ID",
+          name: "time Window ID",
           nameLocation: "middle",
           nameTextStyle: {
             lineHeight: 40,
@@ -47,11 +45,43 @@ export default {
           type: "category",
           boundaryGap: false,
           data: this.chartData.xAxis,
-          
-        },
+        }, //纵坐标使用科学计数法表示
         yAxis: {
           name: "Num",
-          type: "value",
+          axisLabel: {
+            formatter: function (value) {
+              var res = value.toString();
+              var numN1 = 0;
+              var numN2 = 1;
+              var num1 = 0;
+              var num2 = 0;
+              var t1 = 1;
+              for (var k = 0; k < res.length; k++) {
+                if (res[k] == ".") t1 = 0;
+                if (t1) num1++;
+                else num2++;
+              }
+
+              if (Math.abs(value) < 1 && res.length > 4) {
+                for (var i = 2; i < res.length; i++) {
+                  if (res[i] == "0") {
+                    numN2++;
+                  } else if (res[i] == ".") continue;
+                  else break;
+                }
+                var v = parseFloat(value);
+                v = v * Math.pow(10, numN2);
+                return v.toString() + "e-" + numN2;
+              } else if (num1 > 4) {
+                if (res[0] == "-") numN1 = num1 - 2;
+                else numN1 = num1 - 1;
+                var val = parseFloat(value);
+                val = val / Math.pow(10, numN1);
+                if (num2 > 4) val = val.toFixed(4);
+                return val.toString() + "e" + numN1;
+              } else return parseFloat(value);
+            },
+          },
         },
         series: [
           {

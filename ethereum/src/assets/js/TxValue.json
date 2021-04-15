@@ -1,0 +1,129 @@
+{
+  "flag": true,
+  "code": 200,
+  "message": "成功",
+  "data": {
+    "data": [
+      {
+        "id": 1,
+        "timeWindow": 1,
+        "txValue": 41626950
+      },
+      {
+        "id": 2,
+        "timeWindow": 2,
+        "txValue": 45924824
+      },
+      {
+        "id": 3,
+        "timeWindow": 3,
+        "txValue": 46699199
+      },
+      {
+        "id": 4,
+        "timeWindow": 4,
+        "txValue": 56015778
+      },
+      {
+        "id": 5,
+        "timeWindow": 5,
+        "txValue": 110011391
+      },
+      {
+        "id": 6,
+        "timeWindow": 6,
+        "txValue": 109156736
+      },
+      {
+        "id": 7,
+        "timeWindow": 7,
+        "txValue": 120521717
+      },
+      {
+        "id": 8,
+        "timeWindow": 8,
+        "txValue": 113131077
+      },
+      {
+        "id": 9,
+        "timeWindow": 9,
+        "txValue": 91679352
+      },
+      {
+        "id": 10,
+        "timeWindow": 10,
+        "txValue": 98785761
+      },
+      {
+        "id": 11,
+        "timeWindow": 11,
+        "txValue": 560110775
+      },
+      {
+        "id": 12,
+        "timeWindow": 12,
+        "txValue": 1099601275
+      },
+      {
+        "id": 13,
+        "timeWindow": 13,
+        "txValue": 1588374148
+      },
+      {
+        "id": 14,
+        "timeWindow": 14,
+        "txValue": 2264000808
+      },
+      {
+        "id": 15,
+        "timeWindow": 15,
+        "txValue": 2322470580
+      },
+      {
+        "id": 16,
+        "timeWindow": 16,
+        "txValue": 2260746816
+      },
+      {
+        "id": 17,
+        "timeWindow": 17,
+        "txValue": 2271033520
+      },
+      {
+        "id": 18,
+        "timeWindow": 18,
+        "txValue": 1688622413
+      },
+      {
+        "id": 19,
+        "timeWindow": 19,
+        "txValue": 1187642432
+      },
+      {
+        "id": 20,
+        "timeWindow": 20,
+        "txValue": 732817951
+      },
+      {
+        "id": 21,
+        "timeWindow": 21,
+        "txValue": 228207671
+      },
+      {
+        "id": 22,
+        "timeWindow": 22,
+        "txValue": 138709913
+      },
+      {
+        "id": 23,
+        "timeWindow": 23,
+        "txValue": 141571205
+      },
+      {
+        "id": 24,
+        "timeWindow": 24,
+        "txValue": 175712479
+      }
+    ]
+  }
+}

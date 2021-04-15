@@ -1,0 +1,153 @@
+{
+  "flag": true,
+  "code": 200,
+  "message": "成功",
+  "data": {
+    "data": [
+      {
+        "id": 1,
+        "timeWindow": 1,
+        "txNumForEdge": 17,
+        "txNumForNode": 28
+      },
+      {
+        "id": 2,
+        "timeWindow": 2,
+        "txNumForEdge": 11,
+        "txNumForNode": 19
+      },
+      {
+        "id": 3,
+        "timeWindow": 3,
+        "txNumForEdge": 11,
+        "txNumForNode": 20
+      },
+      {
+        "id": 4,
+        "timeWindow": 4,
+        "txNumForEdge": 9,
+        "txNumForNode": 17
+      },
+      {
+        "id": 5,
+        "timeWindow": 5,
+        "txNumForEdge": 8,
+        "txNumForNode": 16
+      },
+      {
+        "id": 6,
+        "timeWindow": 6,
+        "txNumForEdge": 8,
+        "txNumForNode": 15
+      },
+      {
+        "id": 7,
+        "timeWindow": 7,
+        "txNumForEdge": 7,
+        "txNumForNode": 10
+      },
+      {
+        "id": 8,
+        "timeWindow": 8,
+        "txNumForEdge": 7,
+        "txNumForNode": 10
+      },
+      {
+        "id": 9,
+        "timeWindow": 9,
+        "txNumForEdge": 7,
+        "txNumForNode": 9
+      },
+      {
+        "id": 10,
+        "timeWindow": 10,
+        "txNumForEdge": 9,
+        "txNumForNode": 8
+      },
+      {
+        "id": 11,
+        "timeWindow": 11,
+        "txNumForEdge": 3,
+        "txNumForNode": 6
+      },
+      {
+        "id": 12,
+        "timeWindow": 12,
+        "txNumForEdge": 2,
+        "txNumForNode": 5
+      },
+      {
+        "id": 13,
+        "timeWindow": 13,
+        "txNumForEdge": 2,
+        "txNumForNode": 4
+      },
+      {
+        "id": 14,
+        "timeWindow": 14,
+        "txNumForEdge": 1,
+        "txNumForNode": 3
+      },
+      {
+        "id": 15,
+        "timeWindow": 15,
+        "txNumForEdge": 1,
+        "txNumForNode": 3
+      },
+      {
+        "id": 16,
+        "timeWindow": 16,
+        "txNumForEdge": 1,
+        "txNumForNode": 3
+      },
+      {
+        "id": 17,
+        "timeWindow": 17,
+        "txNumForEdge": 1,
+        "txNumForNode": 3
+      },
+      {
+        "id": 18,
+        "timeWindow": 18,
+        "txNumForEdge": 1,
+        "txNumForNode": 2
+      },
+      {
+        "id": 19,
+        "timeWindow": 19,
+        "txNumForEdge": 1,
+        "txNumForNode": 2
+      },
+      {
+        "id": 20,
+        "timeWindow": 20,
+        "txNumForEdge": 1,
+        "txNumForNode": 2
+      },
+      {
+        "id": 21,
+        "timeWindow": 21,
+        "txNumForEdge": 1,
+        "txNumForNode": 2
+      },
+      {
+        "id": 22,
+        "timeWindow": 22,
+        "txNumForEdge": 1,
+        "txNumForNode": 2
+      },
+      {
+        "id": 23,
+        "timeWindow": 23,
+        "txNumForEdge": 1,
+        "txNumForNode": 2
+      },
+      {
+        "id": 24,
+        "timeWindow": 24,
+        "txNumForEdge": 1,
+        "txNumForNode": 3
+      }
+    ]
+  }
+}
