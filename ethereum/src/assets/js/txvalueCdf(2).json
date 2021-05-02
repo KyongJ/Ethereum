@@ -1,0 +1,75 @@
+{
+  "flag": true,
+  "code": 200,
+  "message": "成功",
+  "data": {
+    "name": "交易家住分布CDF图",
+    "data": [
+      {
+        "txvalue": "1e2",
+        "nodecdf": 0.00254,
+        "edgecdf": 0.00429
+      },
+      {
+        "txvalue": "1e4",
+        "nodecdf": 0.00255,
+        "edgecdf": 0.0043
+      },
+      {
+        "txvalue": "1e6",
+        "nodecdf": 0.00255,
+        "edgecdf": 0.00431
+      },
+      {
+        "txvalue": "1e8",
+        "nodecdf": 0.00257,
+        "edgecdf": 0.00433
+      },
+      {
+        "txvalue": "1e10",
+        "nodecdf": 0.00265,
+        "edgecdf": 0.00498
+      },
+      {
+        "txvalue": "1e12",
+        "nodecdf": 0.00312,
+        "edgecdf": 0.0055
+      },
+      {
+        "txvalue": "1e14",
+        "nodecdf": 0.03684,
+        "edgecdf": 0.03866
+      },
+      {
+        "txvalue": "1e16",
+        "nodecdf": 0.31683,
+        "edgecdf": 0.26468
+      },
+      {
+        "txvalue": "1e18",
+        "nodecdf": 0.70512,
+        "edgecdf": 0.72526
+      },
+      {
+        "txvalue": "1e20",
+        "nodecdf": 0.98508,
+        "edgecdf": 0.99328
+      },
+      {
+        "txvalue": "1e22",
+        "nodecdf": 0.99842,
+        "edgecdf": 0.99996
+      },
+      {
+        "txvalue": "1e24",
+        "nodecdf": 0.99999,
+        "edgecdf": 0.99999
+      },
+      {
+        "txvalue": "1e26",
+        "nodecdf": 1,
+        "edgecdf": 1
+      }
+    ]
+  }
+}

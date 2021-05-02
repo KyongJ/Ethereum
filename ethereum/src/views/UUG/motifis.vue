@@ -1,18 +1,20 @@
 <template>
-  <div class="ugg-degree-page">
+  <div class="ugg-motifis-page">
     <div class="container">
-      <div>
+      <div class="chart">
         <div class="line">
-          <div class="flex-1 box">
-            <div class="title">UUG平均度演化图</div>
-            <my-chart v-if="hasData" :chart-data="chartData"></my-chart>
+          <div class="box flex-1">
+            <div class="title">闭合三元组总数演化趋势</div>
+            <my-chart v-if="hasData" :chart-data="sumData"></my-chart>
           </div>
+          <div class="box flex-1">分析结果</div>
         </div>
-       <div class="line">
-          <div class="flex-1 box">
-            <div class="title">度分布CDF图</div>
-            <my-chart v-if="hasData" :chart-data="degreeCdf"></my-chart>
+        <div class="line">
+          <div class="box">
+            <div class="title">闭合三元组占比演化趋势</div>
+            <my-chart v-if="hasData" :chart-data="proData"></my-chart>
           </div>
+          <div class="box flex-1">分析结果</div>
         </div>
       </div>
     </div>
@@ -21,8 +23,9 @@
 
 <script>
 import myChart from "../components/charts";
-import degreeData from "../../assets/js/degree.json";
-import degreeCdf from "../../assets/js/degreeCdf(2).json";
+import closedTripletData from "../../assets/js/closedTriplet.json";
+
+
 
 export default {
   components: {
@@ -30,20 +33,26 @@ export default {
   },
   data() {
     return {
-      chartData: {
-        xAxis: [],
-        degree: [],
-        arr: [],
-      },
-      degreeCdf:{},
+      chartData: {},
+      sumData:{},
+      proData:{},
       hasData: false,
+      hasAvgData: false,
     };
   },
   mounted() {
-    const { data } = degreeData;
-    this.formatData(data.data);
+    this.chartData = this.formatData(closedTripletData);
 
-     this.degreeCdf = this.formatData2(degreeCdf);
+    console.log(this.chartData  )
+    this.sumData={...this.chartData};
+
+    this.sumData.yAxis=[this.chartData.yAxis[0]];
+    this.sumData.arr=[this.chartData.arr[0]]
+
+    this.proData={...this.chartData};
+    this.proData.yAxis=[this.chartData.yAxis[1]];
+    this.proData.arr=[this.chartData.arr[1]]
+
     // this.$axios
     //   .get("https://api.coindesk.com/v1/bpi/currentprice.json")
     //   .then((res) => {
@@ -51,22 +60,7 @@ export default {
     //   });
   },
   methods: {
-    formatData(data) {
-      console.log(data);
-
-      let xAxis = [];
-      let degree = [];
-      data.forEach((item) => {
-        xAxis.push(item.timeWindow);
-        degree.push(item.degree);
-      });
-      this.chartData.xAxis = xAxis;
-      this.chartData.yAxis = ["degree"];
-      this.chartData.degree = degree;
-      this.chartData.arr.push(degree);
-      this.hasData = true;
-    },
-     formatData2(oriData) {
+    formatData(oriData) {
       let { data } = oriData;
       data = data.data;
 
@@ -75,9 +69,9 @@ export default {
       let xAxis = [];
 
       data.forEach((item) => {
-        xAxis.push(item.degree);
+        xAxis.push(item.timeWindow);
         for (let key in item) {
-          if (key != "id" && key != "degree") {
+          if (key != "id" && key != "timeWindow") {
             if (!obj[key]) {
               obj[key] = [item[key]];
             } else {
@@ -97,11 +91,14 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.ugg-degree-page {
+.ugg-motifis-page {
   color: #444;
   .flex-1 {
     flex: 1;
   }
+     .chart {
+      width: 80%;
+    }
   .container {
     display: flex;
     align-items: center;
@@ -125,6 +122,7 @@ export default {
     .box {
       margin-right: 30px;
       padding: 30px;
+      margin-bottom: 30px;
       background-color: white;
       box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
         0 4px 6px -2px rgba(0, 0, 0, 0.05);

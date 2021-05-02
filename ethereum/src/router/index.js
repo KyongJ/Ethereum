@@ -48,6 +48,12 @@ const routes = [
         icon: "iconfont el-icon-myfabiaowenzhang",
         component: () => import("../views/UUG/edg-weight.vue"),
       },
+      {
+        path: "/uug/motifis",
+        name: "Motifis",
+        icon: "iconfont el-icon-myfabiaowenzhang",
+        component: () => import("../views/UUG/motifis.vue"),
+      },
     ]
   },
   {

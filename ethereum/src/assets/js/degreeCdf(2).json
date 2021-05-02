@@ -1,0 +1,40 @@
+{
+  "flag": true,
+  "code": 200,
+  "message": "成功",
+  "data": {
+    "name": "度分布CDF图",
+    "data": [
+      {
+        "degree": "1",
+        "overcdf": 0.4838,
+        "incdf": 0.8749,
+        "outcdf": 0.9133
+      },
+      {
+        "degree": "10",
+        "overcdf": 0.9871,
+        "incdf": 0.9961,
+        "outcdf": 0.9944
+      },
+      {
+        "degree": "100",
+        "overcdf": 0.9992,
+        "incdf": 0.9997,
+        "outcdf": 0.9994
+      },
+      {
+        "degree": "1000",
+        "overcdf": 0.9998,
+        "incdf": 0.9999,
+        "outcdf": 0.9999
+      },
+      {
+        "degree": "10000",
+        "overcdf": 1,
+        "incdf": 1,
+        "outcdf": 1
+      }
+    ]
+  }
+}

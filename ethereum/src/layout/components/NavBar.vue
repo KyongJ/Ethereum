@@ -21,7 +21,7 @@
         </div>
         <!-- 用户选项 -->
         <el-dropdown @command="handleCommand">
-          <el-avatar :size="40" :src="this.$store.state.avatar" />
+          <el-avatar :size="40" :src="circleUrl" />
           <i class="el-icon-caret-bottom" />
           <el-dropdown-menu slot="dropdown">
             <el-dropdown-item command="logout" divided>
@@ -54,6 +54,7 @@
 </template>
 
 <script>
+import headUrl from "../../assets/image/head.png"
 export default {
   created() {
     //替换面包屑导航
@@ -70,7 +71,8 @@ export default {
     return {
       isSearch: false,
       fullscreen: false,
-      breadcrumbList: []
+      breadcrumbList: [],
+       circleUrl: headUrl
     };
   },
   methods: {
