@@ -1,21 +1,32 @@
 <template>
-  <div class="ugg-motifis-page">
+  <div class="uug-gini-page">
     <div class="container">
-      <div class="chart">
+      <div>
         <div class="line">
-          <div class="box flex-1">
-            <div class="title">闭合三元组总数演化趋势</div>
-            <my-chart v-if="hasData" :chart-data="sumData"></my-chart>
+          <div class="box">
+            <div class="title">合约调用演化</div>
+            <my-chart v-if="hasData" :chart-data="contractCalled" ></my-chart>
           </div>
           <div class="box flex-1">分析结果</div>
         </div>
         <div class="line">
           <div class="box">
-            <div class="title">闭合三元组占比演化趋势</div>
-            <my-chart v-if="hasData" :chart-data="proData"  y-label="position"></my-chart>
+            <div class="title">名字2</div>
+            <my-chart v-if="hasData" :chart-data="ucgValue"></my-chart>
           </div>
           <div class="box flex-1">分析结果</div>
         </div>
+
+         <div class="line">
+          <div class="box">
+            <div class="title">名字3</div>
+            <my-chart v-if="hasData" :chart-data="calledByEOAOrContract"></my-chart>
+          </div>
+          <div class="box flex-1">分析结果</div>
+        </div>
+       
+        
+                
       </div>
     </div>
   </div>
@@ -23,8 +34,9 @@
 
 <script>
 import myChart from "../components/charts";
-import closedTripletData from "../../assets/js/closedTriplet.json";
-
+import contractCalled from "../../assets/js/contract_called.json";
+import ucgValue from "../../assets/js/ucgValue.json";
+import calledByEOAOrContract from "../../assets/js/calledByEOAOrContract.json";
 
 
 export default {
@@ -33,25 +45,17 @@ export default {
   },
   data() {
     return {
-      chartData: {},
-      sumData:{},
-      proData:{},
+      contractCalled: {},
+      ucgValue: {},
+      calledByEOAOrContract: {},
+     
       hasData: false,
-      hasAvgData: false,
     };
   },
   mounted() {
-    this.chartData = this.formatData(closedTripletData);
-
-    console.log(this.chartData  )
-    this.sumData={...this.chartData};
-
-    this.sumData.yAxis=[this.chartData.yAxis[0]];
-    this.sumData.arr=[this.chartData.arr[0]]
-
-    this.proData={...this.chartData};
-    this.proData.yAxis=[this.chartData.yAxis[1]];
-    this.proData.arr=[this.chartData.arr[1]]
+    this.contractCalled = this.formatData(contractCalled);
+    this.ucgValue = this.formatData(ucgValue);
+    this.calledByEOAOrContract = this.formatData(calledByEOAOrContract);
 
     // this.$axios
     //   .get("https://api.coindesk.com/v1/bpi/currentprice.json")
@@ -86,19 +90,42 @@ export default {
       this.hasData = true;
       return chartData;
     },
+     formatData2(oriData) {
+      let { data } = oriData;
+      data = data.data;
+
+      let chartData = {};
+      let obj = {};
+      let xAxis = [];
+
+      data.forEach((item) => {
+        xAxis.push(item.txvalue);
+        for (let key in item) {
+          if (key != "id" && key != "txvalue") {
+            if (!obj[key]) {
+              obj[key] = [item[key]];
+            } else {
+              obj[key].push(item[key]);
+            }
+          }
+        }
+      });
+      chartData.xAxis = xAxis;
+      chartData.yAxis = Object.keys(obj);
+      chartData.arr = Object.values(obj);
+      this.hasData = true;
+      return chartData;
+    },
   },
 };
 </script>
 
 <style lang="scss" scoped>
-.ugg-motifis-page {
+.uug-gini-page {
   color: #444;
   .flex-1 {
     flex: 1;
   }
-     .chart {
-      width: 80%;
-    }
   .container {
     display: flex;
     align-items: center;

@@ -1,0 +1,178 @@
+{
+  "flag": true,
+  "code": 200,
+  "message": "成功",
+  "data": {
+    "data": [
+      {
+        "id": 1,
+        "timeWindow": 1,
+        "inDegree": 0.45,
+        "outDegree": 0.81,
+        "overDegree": 0.59
+      },
+      {
+        "id": 2,
+        "timeWindow": 2,
+        "inDegree": 0.4,
+        "outDegree": 0.75,
+        "overDegree": 0.55
+      },
+      {
+        "id": 3,
+        "timeWindow": 3,
+        "inDegree": 0.43,
+        "outDegree": 0.75,
+        "overDegree": 0.56
+      },
+      {
+        "id": 4,
+        "timeWindow": 4,
+        "inDegree": 0.44,
+        "outDegree": 0.77,
+        "overDegree": 0.58
+      },
+      {
+        "id": 5,
+        "timeWindow": 5,
+        "inDegree": 0.46,
+        "outDegree": 0.71,
+        "overDegree": 0.56
+      },
+      {
+        "id": 6,
+        "timeWindow": 6,
+        "inDegree": 0.49,
+        "outDegree": 0.72,
+        "overDegree": 0.57
+      },
+      {
+        "id": 7,
+        "timeWindow": 7,
+        "inDegree": 0.47,
+        "outDegree": 0.76,
+        "overDegree": 0.56
+      },
+      {
+        "id": 8,
+        "timeWindow": 8,
+        "inDegree": 0.46,
+        "outDegree": 0.77,
+        "overDegree": 0.55
+      },
+      {
+        "id": 9,
+        "timeWindow": 9,
+        "inDegree": 0.52,
+        "outDegree": 0.79,
+        "overDegree": 0.56
+      },
+      {
+        "id": 10,
+        "timeWindow": 10,
+        "inDegree": 0.52,
+        "outDegree": 0.78,
+        "overDegree": 0.57
+      },
+      {
+        "id": 11,
+        "timeWindow": 11,
+        "inDegree": 0.52,
+        "outDegree": 0.72,
+        "overDegree": 0.57
+      },
+      {
+        "id": 12,
+        "timeWindow": 12,
+        "inDegree": 0.49,
+        "outDegree": 0.7,
+        "overDegree": 0.56
+      },
+      {
+        "id": 13,
+        "timeWindow": 13,
+        "inDegree": 0.47,
+        "outDegree": 0.69,
+        "overDegree": 0.54
+      },
+      {
+        "id": 14,
+        "timeWindow": 14,
+        "inDegree": 0.47,
+        "outDegree": 0.69,
+        "overDegree": 0.54
+      },
+      {
+        "id": 15,
+        "timeWindow": 15,
+        "inDegree": 0.46,
+        "outDegree": 0.7,
+        "overDegree": 0.55
+      },
+      {
+        "id": 16,
+        "timeWindow": 16,
+        "inDegree": 0.47,
+        "outDegree": 0.7,
+        "overDegree": 0.55
+      },
+      {
+        "id": 17,
+        "timeWindow": 17,
+        "inDegree": 0.45,
+        "outDegree": 0.66,
+        "overDegree": 0.52
+      },
+      {
+        "id": 18,
+        "timeWindow": 18,
+        "inDegree": 0.45,
+        "outDegree": 0.66,
+        "overDegree": 0.52
+      },
+      {
+        "id": 19,
+        "timeWindow": 19,
+        "inDegree": 0.46,
+        "outDegree": 0.67,
+        "overDegree": 0.53
+      },
+      {
+        "id": 20,
+        "timeWindow": 20,
+        "inDegree": 0.47,
+        "outDegree": 0.69,
+        "overDegree": 0.54
+      },
+      {
+        "id": 21,
+        "timeWindow": 21,
+        "inDegree": 0.48,
+        "outDegree": 0.72,
+        "overDegree": 0.56
+      },
+      {
+        "id": 22,
+        "timeWindow": 22,
+        "inDegree": 0.48,
+        "outDegree": 0.74,
+        "overDegree": 0.56
+      },
+      {
+        "id": 23,
+        "timeWindow": 23,
+        "inDegree": 0.49,
+        "outDegree": 0.75,
+        "overDegree": 0.57
+      },
+      {
+        "id": 24,
+        "timeWindow": 24,
+        "inDegree": 0.5,
+        "outDegree": 0.74,
+        "overDegree": 0.57
+      }
+    ],
+    "name": "度悉尼系数演化"
+  }
+}

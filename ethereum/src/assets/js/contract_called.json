@@ -1,0 +1,153 @@
+{
+  "flag": true,
+  "code": 200,
+  "message": "成功",
+  "data": {
+    "data": [
+      {
+        "id": 1,
+        "timeWindow": 1,
+        "contractCall": 45787,
+        "contractCalled": 316101
+      },
+      {
+        "id": 2,
+        "timeWindow": 2,
+        "contractCall": 31984,
+        "contractCalled": 447566
+      },
+      {
+        "id": 3,
+        "timeWindow": 3,
+        "contractCall": 41403,
+        "contractCalled": 643546
+      },
+      {
+        "id": 4,
+        "timeWindow": 4,
+        "contractCall": 67109,
+        "contractCalled": 885352
+      },
+      {
+        "id": 5,
+        "timeWindow": 5,
+        "contractCall": 338380,
+        "contractCalled": 1101357
+      },
+      {
+        "id": 6,
+        "timeWindow": 6,
+        "contractCall": 1140152,
+        "contractCalled": 1688054
+      },
+      {
+        "id": 7,
+        "timeWindow": 7,
+        "contractCall": 1882706,
+        "contractCalled": 2184969
+      },
+      {
+        "id": 8,
+        "timeWindow": 8,
+        "contractCall": 2452602,
+        "contractCalled": 2555364
+      },
+      {
+        "id": 9,
+        "timeWindow": 9,
+        "contractCall": 2472696,
+        "contractCalled": 2896327
+      },
+      {
+        "id": 10,
+        "timeWindow": 10,
+        "contractCall": 2155919,
+        "contractCalled": 3403523
+      },
+      {
+        "id": 11,
+        "timeWindow": 11,
+        "contractCall": 2097942,
+        "contractCalled": 4578982
+      },
+      {
+        "id": 12,
+        "timeWindow": 12,
+        "contractCall": 2780939,
+        "contractCalled": 7814642
+      },
+      {
+        "id": 13,
+        "timeWindow": 13,
+        "contractCall": 3835925,
+        "contractCalled": 12695701
+      },
+      {
+        "id": 14,
+        "timeWindow": 14,
+        "contractCall": 5615235,
+        "contractCalled": 18775979
+      },
+      {
+        "id": 15,
+        "timeWindow": 15,
+        "contractCall": 5345485,
+        "contractCalled": 28062248
+      },
+      {
+        "id": 16,
+        "timeWindow": 16,
+        "contractCall": 6941827,
+        "contractCalled": 38629822
+      },
+      {
+        "id": 17,
+        "timeWindow": 17,
+        "contractCall": 8028506,
+        "contractCalled": 45828942
+      },
+      {
+        "id": 18,
+        "timeWindow": 18,
+        "contractCall": 9187877,
+        "contractCalled": 53602371
+      },
+      {
+        "id": 19,
+        "timeWindow": 19,
+        "contractCall": 9645275,
+        "contractCalled": 61680219
+      },
+      {
+        "id": 20,
+        "timeWindow": 20,
+        "contractCall": 8343984,
+        "contractCalled": 63840422
+      },
+      {
+        "id": 21,
+        "timeWindow": 21,
+        "contractCall": 8096905,
+        "contractCalled": 63346900
+      },
+      {
+        "id": 22,
+        "timeWindow": 22,
+        "contractCall": 8245157,
+        "contractCalled": 61751913
+      },
+      {
+        "id": 23,
+        "timeWindow": 23,
+        "contractCall": 8926212,
+        "contractCalled": 56484877
+      },
+      {
+        "id": 24,
+        "timeWindow": 24,
+        "contractCall": 9012542,
+        "contractCalled": 53454125
+      }
+    ]
+  }
+}

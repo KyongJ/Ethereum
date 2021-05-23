@@ -8,6 +8,7 @@
 export default {
   props: {
     chartData: Object,
+    yLabel:String
   },
   data() {
     return {};
@@ -47,7 +48,7 @@ export default {
           data: this.chartData.xAxis,
         }, //纵坐标使用科学计数法表示
         yAxis: {
-          name: "Num",
+          name: this.yLabel||"Num",
           axisLabel: {
             formatter: function (value) {
               var res = value.toString();
@@ -87,19 +88,22 @@ export default {
           {
             name: this.chartData.yAxis[0],
             type: "line",
-            stack: "总量",
+            // stack: "总量",
+            smooth:true,
             data: this.chartData.arr[0],
           },
           {
             name: this.chartData.yAxis[1],
             type: "line",
-            stack: "总量",
+            // stack: "总量",
+             smooth:true,
             data: this.chartData.arr[1],
           },
           {
             name: this.chartData.yAxis[2],
             type: "line",
-            stack: "总量",
+            // stack: "总量",
+             smooth:true,
             data: this.chartData.arr[2],
           },
         ],

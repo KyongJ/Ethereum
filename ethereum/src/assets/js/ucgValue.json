@@ -1,0 +1,153 @@
+{
+  "flag": true,
+  "code": 200,
+  "message": "成功",
+  "data": {
+    "data": [
+      {
+        "id": 1,
+        "timeWindow": 1,
+        "eoaValue": 35.5,
+        "contractValue": 7.77
+      },
+      {
+        "id": 2,
+        "timeWindow": 2,
+        "eoaValue": 12,
+        "contractValue": 8
+      },
+      {
+        "id": 3,
+        "timeWindow": 3,
+        "eoaValue": 20.25,
+        "contractValue": 5.6
+      },
+      {
+        "id": 4,
+        "timeWindow": 4,
+        "eoaValue": 21.5,
+        "contractValue": 5.6
+      },
+      {
+        "id": 5,
+        "timeWindow": 5,
+        "eoaValue": 42.25,
+        "contractValue": 6.25
+      },
+      {
+        "id": 6,
+        "timeWindow": 6,
+        "eoaValue": 53,
+        "contractValue": 6
+      },
+      {
+        "id": 7,
+        "timeWindow": 7,
+        "eoaValue": 53.75,
+        "contractValue": 5.8
+      },
+      {
+        "id": 8,
+        "timeWindow": 8,
+        "eoaValue": 60,
+        "contractValue": 1.3
+      },
+      {
+        "id": 9,
+        "timeWindow": 9,
+        "eoaValue": 42.5,
+        "contractValue": 0.58
+      },
+      {
+        "id": 10,
+        "timeWindow": 10,
+        "eoaValue": 36.75,
+        "contractValue": 2.08
+      },
+      {
+        "id": 11,
+        "timeWindow": 11,
+        "eoaValue": 27.5,
+        "contractValue": 2.78
+      },
+      {
+        "id": 12,
+        "timeWindow": 12,
+        "eoaValue": 17.38,
+        "contractValue": 3.03
+      },
+      {
+        "id": 13,
+        "timeWindow": 13,
+        "eoaValue": 13.88,
+        "contractValue": 3.08
+      },
+      {
+        "id": 14,
+        "timeWindow": 14,
+        "eoaValue": 7.38,
+        "contractValue": 1.75
+      },
+      {
+        "id": 15,
+        "timeWindow": 15,
+        "eoaValue": 4.03,
+        "contractValue": 0.99
+      },
+      {
+        "id": 16,
+        "timeWindow": 16,
+        "eoaValue": 2.4,
+        "contractValue": 0.62
+      },
+      {
+        "id": 17,
+        "timeWindow": 17,
+        "eoaValue": 1.57,
+        "contractValue": 0.45
+      },
+      {
+        "id": 18,
+        "timeWindow": 18,
+        "eoaValue": 0.97,
+        "contractValue": 0.31
+      },
+      {
+        "id": 19,
+        "timeWindow": 19,
+        "eoaValue": 0.7,
+        "contractValue": 0.27
+      },
+      {
+        "id": 20,
+        "timeWindow": 20,
+        "eoaValue": 0.55,
+        "contractValue": 0.18
+      },
+      {
+        "id": 21,
+        "timeWindow": 21,
+        "eoaValue": 0.47,
+        "contractValue": 0.15
+      },
+      {
+        "id": 22,
+        "timeWindow": 22,
+        "eoaValue": 0.47,
+        "contractValue": 0.13
+      },
+      {
+        "id": 23,
+        "timeWindow": 23,
+        "eoaValue": 0.46,
+        "contractValue": 0.09
+      },
+      {
+        "id": 24,
+        "timeWindow": 24,
+        "eoaValue": 0.45,
+        "contractValue": 0.08
+      }
+    ]
+  }
+}

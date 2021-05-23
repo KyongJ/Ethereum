@@ -1,0 +1,153 @@
+{
+  "flag": true,
+  "code": 200,
+  "message": "成功",
+  "data": {
+    "data": [
+      {
+        "id": 1,
+        "timeWindow": 1,
+        "eoa": 7864,
+        "contract": 489
+      },
+      {
+        "id": 2,
+        "timeWindow": 2,
+        "eoa": 11247,
+        "contract": 940
+      },
+      {
+        "id": 3,
+        "timeWindow": 3,
+        "eoa": 16532,
+        "contract": 2213
+      },
+      {
+        "id": 4,
+        "timeWindow": 4,
+        "eoa": 34916,
+        "contract": 20634
+      },
+      {
+        "id": 5,
+        "timeWindow": 5,
+        "eoa": 45125,
+        "contract": 57265
+      },
+      {
+        "id": 6,
+        "timeWindow": 6,
+        "eoa": 72919,
+        "contract": 102649
+      },
+      {
+        "id": 7,
+        "timeWindow": 7,
+        "eoa": 73697,
+        "contract": 115893
+      },
+      {
+        "id": 8,
+        "timeWindow": 8,
+        "eoa": 62501,
+        "contract": 108878
+      },
+      {
+        "id": 9,
+        "timeWindow": 9,
+        "eoa": 60091,
+        "contract": 74293
+      },
+      {
+        "id": 10,
+        "timeWindow": 10,
+        "eoa": 53979,
+        "contract": 30269
+      },
+      {
+        "id": 11,
+        "timeWindow": 11,
+        "eoa": 101114,
+        "contract": 121347
+      },
+      {
+        "id": 12,
+        "timeWindow": 12,
+        "eoa": 311614,
+        "contract": 337987
+      },
+      {
+        "id": 13,
+        "timeWindow": 13,
+        "eoa": 440644,
+        "contract": 780478
+      },
+      {
+        "id": 14,
+        "timeWindow": 14,
+        "eoa": 505348,
+        "contract": 1245313
+      },
+      {
+        "id": 15,
+        "timeWindow": 15,
+        "eoa": 548790,
+        "contract": 1949155
+      },
+      {
+        "id": 16,
+        "timeWindow": 16,
+        "eoa": 616023,
+        "contract": 2591627
+      },
+      {
+        "id": 17,
+        "timeWindow": 17,
+        "eoa": 747248,
+        "contract": 2625726
+      },
+      {
+        "id": 18,
+        "timeWindow": 18,
+        "eoa": 761092,
+        "contract": 2970490
+      },
+      {
+        "id": 19,
+        "timeWindow": 19,
+        "eoa": 762561,
+        "contract": 2385077
+      },
+      {
+        "id": 20,
+        "timeWindow": 20,
+        "eoa": 594333,
+        "contract": 1702589
+      },
+      {
+        "id": 21,
+        "timeWindow": 21,
+        "eoa": 439554,
+        "contract": 1500766
+      },
+      {
+        "id": 22,
+        "timeWindow": 22,
+        "eoa": 431011,
+        "contract": 1309667
+      },
+      {
+        "id": 23,
+        "timeWindow": 23,
+        "eoa": 442515,
+        "contract": 3162364
+      },
+      {
+        "id": 24,
+        "timeWindow": 24,
+        "eoa": 425726,
+        "contract": 3879940
+      }
+    ]
+  }
+}

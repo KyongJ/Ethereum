@@ -54,6 +54,12 @@ const routes = [
         icon: "iconfont el-icon-myfabiaowenzhang",
         component: () => import("../views/UUG/motifis.vue"),
       },
+      {
+        path: "/uug/gini",
+        name: "Gini",
+        icon: "iconfont el-icon-myfabiaowenzhang",
+        component: () => import("../views/UUG/gini.vue"),
+      },
     ]
   },
   {
@@ -64,10 +70,16 @@ const routes = [
     component: Layout,
     children: [
       {
-        path: "/ucgData",
-        name: "UCG数据",
+        path: "/creation",
+        name: "Creation of contracts",
         icon: "iconfont el-icon-myfabiaowenzhang",
         component: () => import("../views/UCG/ucg.vue"),
+      },
+      {
+        path: "/call",
+        name: "Call of contracts",
+        icon: "iconfont el-icon-myfabiaowenzhang",
+        component: () => import("../views/UCG/contracts.vue"),
       },
     ]
   },
