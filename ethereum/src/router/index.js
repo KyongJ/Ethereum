@@ -64,7 +64,7 @@ const routes = [
   },
   {
     path: "/ucg",
-    name: "UCG",
+    name: "UCG|CCG",
     icon: "iconfont el-icon-mywenzhang-copy",
     redirect: "/ucg",
     component: Layout,
@@ -83,21 +83,21 @@ const routes = [
       },
     ]
   },
-  {
-    path: "/ccg",
-    name: "CCG",
-    icon: "iconfont el-icon-mywenzhang-copy",
-    redirect: "/ccg",
-    component: Layout,
-    children: [
-      {
-        path: "/ccgData",
-        name: "CCG数据",
-        icon: "iconfont el-icon-myfabiaowenzhang",
-        component: () => import("../views/CCG/ccg.vue"),
-      },
-    ]
-  }
+  // {
+  //   path: "/ccg",
+  //   name: "CCG",
+  //   icon: "iconfont el-icon-mywenzhang-copy",
+  //   redirect: "/ccg",
+  //   component: Layout,
+  //   children: [
+  //     {
+  //       path: "/ccgData",
+  //       name: "CCG数据",
+  //       icon: "iconfont el-icon-myfabiaowenzhang",
+  //       component: () => import("../views/CCG/ccg.vue"),
+  //     },
+  //   ]
+  // }
 ];
 
 const router = new VueRouter({

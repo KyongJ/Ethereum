@@ -8,145 +8,145 @@
         "id": 1,
         "timeWindow": 1,
         "closeTriplet": 3762,
-        "proportion": 43.8
+        "proportion": 43.8e-6
       },
       {
         "id": 2,
         "timeWindow": 2,
         "closeTriplet": 13035,
-        "proportion": 26.3
+        "proportion": 26.3e-6
       },
       {
         "id": 3,
         "timeWindow": 3,
         "closeTriplet": 20850,
-        "proportion": 42.1
+        "proportion": 42.1e-6
       },
       {
         "id": 4,
         "timeWindow": 4,
         "closeTriplet": 36354,
-        "proportion": 14.9
+        "proportion": 14.9e-6
       },
       {
         "id": 5,
         "timeWindow": 5,
         "closeTriplet": 56724,
-        "proportion": 12.5
+        "proportion": 12.5e-6
       },
       {
         "id": 6,
         "timeWindow": 6,
         "closeTriplet": 49399,
-        "proportion": 10.6
+        "proportion": 10.6e-6
       },
       {
         "id": 7,
         "timeWindow": 7,
         "closeTriplet": 36680,
-        "proportion": 15.9
+        "proportion": 15.9e-6
       },
       {
         "id": 8,
         "timeWindow": 8,
         "closeTriplet": 26959,
-        "proportion": 18.3
+        "proportion": 18.3e-6
       },
       {
         "id": 9,
         "timeWindow": 9,
         "closeTriplet": 14630,
-        "proportion": 9.99
+        "proportion": 9.99e-6
       },
       {
         "id": 10,
         "timeWindow": 10,
         "closeTriplet": 14493,
-        "proportion": 10.2
+        "proportion": 10.2e-6
       },
       {
         "id": 11,
         "timeWindow": 11,
         "closeTriplet": 45141,
-        "proportion": 8.58
+        "proportion": 8.58e-6
       },
       {
         "id": 12,
         "timeWindow": 12,
         "closeTriplet": 87853,
-        "proportion": 6.94
+        "proportion": 6.94e-6
       },
       {
         "id": 13,
         "timeWindow": 13,
         "closeTriplet": 174175,
-        "proportion": 3.65
+        "proportion": 3.65e-6
       },
       {
         "id": 14,
         "timeWindow": 14,
         "closeTriplet": 224141,
-        "proportion": 2.8
+        "proportion": 2.8e-6
       },
       {
         "id": 15,
         "timeWindow": 15,
         "closeTriplet": 280672,
-        "proportion": 2.42
+        "proportion": 2.42e-6
       },
       {
         "id": 16,
         "timeWindow": 16,
         "closeTriplet": 321718,
-        "proportion": 1.99
+        "proportion": 1.99e-6
       },
       {
         "id": 17,
         "timeWindow": 17,
         "closeTriplet": 529643,
-        "proportion": 1.04
+        "proportion": 1.04e-6
       },
       {
         "id": 18,
         "timeWindow": 18,
         "closeTriplet": 596525,
-        "proportion": 0.99
+        "proportion": 0.99e-6
       },
       {
         "id": 19,
         "timeWindow": 19,
         "closeTriplet": 623067,
-        "proportion": 0.83
+        "proportion": 0.83e-6
       },
       {
         "id": 20,
         "timeWindow": 20,
         "closeTriplet": 787068,
-        "proportion": 0.79
+        "proportion": 0.79e-6
       },
       {
         "id": 21,
         "timeWindow": 21,
         "closeTriplet": 672527,
-        "proportion": 0.95
+        "proportion": 0.95e-6
       },
       {
         "id": 22,
         "timeWindow": 22,
         "closeTriplet": 699984,
-        "proportion": 1.05
+        "proportion": 1.05e-6
       },
       {
         "id": 23,
         "timeWindow": 23,
         "closeTriplet": 696106,
-        "proportion": 1.34
+        "proportion": 1.34e-6
       },
       {
         "id": 24,
         "timeWindow": 24,
         "closeTriplet": 557015,
-        "proportion": 2.11
+        "proportion": 2.11e-6
       }
     ],
     "name2": "占据三元组比例",

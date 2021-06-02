@@ -1,20 +1,23 @@
 <template>
   <div class="uug-gini-page">
     <div class="container">
-      <div>
+      <div class="chart">
         <div class="line">
           <div class="box">
             <div class="title">合约数量演化</div>
             <my-chart v-if="hasData" :chart-data="contractNum" ></my-chart>
           </div>
-          <div class="box flex-1">分析结果</div>
+          <div class="box flex-1">从图来看，智能合约的发展也经历了三个阶段。
+            与UUG不同的是，“爆发”的时间变得更短了，且在“退烧”后又迎来了新的一次爆发。
+            </div>
         </div>
         <div class="line">
           <div class="box">
             <div class="title">合约创建数量演化趋势</div>
             <my-chart v-if="hasData" :chart-data="contractCreated"></my-chart>
           </div>
-          <div class="box flex-1">分析结果</div>
+          <div class="box flex-1">显示了重新繁荣主要是由Contract引起的。
+            EOAs创建的合同数量与Contract创建的合同数量整体趋势几乎没有差别，除了最后两个时间窗周期。</div>
         </div>
        
         

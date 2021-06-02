@@ -8,19 +8,20 @@
         "id": 1,
         "timeWindow": 1,
         "newTxNum": 28.732128,
-        "oldTxNum": 0
+        "oldTxNum": 61
       },
       {
         "id": 2,
         "timeWindow": 2,
         "newTxNum": 14.740595,
-        "oldTxNum": 190.1809
+        "oldTxNum": 60
       },
       {
         "id": 3,
         "timeWindow": 3,
         "newTxNum": 8.332814,
-        "oldTxNum": 170.30301
+
+        "oldTxNum": 50
       },
       {
         "id": 4,

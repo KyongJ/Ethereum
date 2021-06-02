@@ -1,13 +1,19 @@
 <template>
   <div class="uug-gini-page">
     <div class="container">
-      <div>
+      <div class="chart">
         <div class="line">
           <div class="box">
-            <div class="title">度分布悉尼系数</div>
+            <div class="title">度分布基尼系数</div>
             <my-chart v-if="hasData" :chart-data="giniData"  y-label="Degree"></my-chart>
           </div>
-          <div class="box flex-1">分析结果</div>
+          <div class="box flex-1">UUG度的基尼系数如图3-12所示，横轴为滑动窗口序号。
+            我们发现无论是总体度、入度还是出度基尼系数在0.4以上。
+            这意味着无论在哪个时间段，节点的度分布都是不平衡的。
+            在滑动图中，入度的基尼系数都小于出度的基尼系数，说明出度的分布比起入度更不平衡。
+            总体度分布的基尼系数在[0.5,0.6]范围内波动。但没有任何迹象表明其基尼系数的走向。
+            因此，我们可以得出结论，“以太坊交易网络在度分配方面，
+            总是不公平的，但不会让富人变得更富。</div>
         </div>
        
         

@@ -7,14 +7,21 @@
             <div class="title">闭合三元组总数演化趋势</div>
             <my-chart v-if="hasData" :chart-data="sumData"></my-chart>
           </div>
-          <div class="box flex-1">分析结果</div>
+          <div class="box flex-1">一开始，闭合三胞胎的数目约为3762个，
+            而最后一个滑动窗口的数目已经达至60万个左右。
+            这一数字在第20个窗口达到峰值，
+            但总体趋势是扩大了数百倍。
+            这表明越来越多的EOA与其他EOA进行交易</div>
         </div>
         <div class="line">
           <div class="box">
             <div class="title">闭合三元组占比演化趋势</div>
             <my-chart v-if="hasData" :chart-data="proData"  y-label="position"></my-chart>
           </div>
-          <div class="box flex-1">分析结果</div>
+          <div class="box flex-1">从开始到第二十个滑动窗口，我们发现闭合三元组在所有三元组中所占的比例几乎在持续的下降。
+            从初始浓度高于十万分之一（即10−5），
+            则降低到近百万分之一（即10−6）。
+            封闭三元组的低集中性意味着UUG的交易模式是绝大多数节点只与少量节点交互的模式。</div>
         </div>
       </div>
     </div>

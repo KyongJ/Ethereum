@@ -1,28 +1,31 @@
 <template>
   <div class="uug-gini-page">
     <div class="container">
-      <div>
+      <div class="chart">
         <div class="line">
           <div class="box">
-            <div class="title">合约调用演化</div>
+            <div class="title">合约调用与被调用数量演化</div>
             <my-chart v-if="hasData" :chart-data="contractCalled" ></my-chart>
           </div>
-          <div class="box flex-1">分析结果</div>
+          <div class="box flex-1">显示了被调用的合约数量和合约调用
+            都经历了与其他元素开发类似的三个阶段，
+            即“缓慢启动”缓慢增长阶段，
+            “爆发”快速增长阶段，以及“退烧”大幅降低阶段。</div>
         </div>
         <div class="line">
           <div class="box">
-            <div class="title">名字2</div>
+            <div class="title">平均调用值演化图</div>
             <my-chart v-if="hasData" :chart-data="ucgValue"></my-chart>
           </div>
-          <div class="box flex-1">分析结果</div>
+          <div class="box flex-1">显示了Contract调用契约的次数远远多于EOAs。我们可以得出结论，这些合同主要由Contract调用</div>
         </div>
 
          <div class="line">
           <div class="box">
-            <div class="title">名字3</div>
+            <div class="title">合约调用者数量演化</div>
             <my-chart v-if="hasData" :chart-data="calledByEOAOrContract"></my-chart>
           </div>
-          <div class="box flex-1">分析结果</div>
+          <div class="box flex-1">EOA调用合约时，平均花费的以太比Contract更多</div>
         </div>
        
         
