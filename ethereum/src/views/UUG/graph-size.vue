@@ -3,7 +3,7 @@
     <div class="container">
       <div class="chart">
         <div class="line">
-          <div class="box flex-1">
+          <div class="box ">
             <div class="title">UUG图大小演变图</div>
             <my-chart v-if="hasData" :chart-data="chartData"></my-chart>
           </div>
@@ -13,7 +13,7 @@
             即以太价格的上涨吸引了更多外部用户前来交易，而以太价格的下跌导致交易量的减少以及用户的流失。</div>
         </div>
         <div class="line">
-          <div class="box flex-1">
+          <div class="box ">
             <div class="title">节点与边关系图</div>
             <point-chart v-if="hasData" :chart-data="chartData"></point-chart>
           </div>

@@ -3,7 +3,7 @@
     <div class="container">
       <div class="chart">
         <div class="line">
-          <div class="box flex-1">
+          <div class="box">
             <div class="title">闭合三元组总数演化趋势</div>
             <my-chart v-if="hasData" :chart-data="sumData"></my-chart>
           </div>
@@ -14,7 +14,7 @@
             这表明越来越多的EOA与其他EOA进行交易</div>
         </div>
         <div class="line">
-          <div class="box">
+          <div class="box ">
             <div class="title">闭合三元组占比演化趋势</div>
             <my-chart v-if="hasData" :chart-data="proData"  y-label="position"></my-chart>
           </div>

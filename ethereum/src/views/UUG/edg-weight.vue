@@ -33,7 +33,7 @@
             造成这种现象的原因大致有两个。一是旧节点在每个窗口中平均进行的交易数越来越少。
             另一种是新节点平均交易数也越来越少。
             这两个因素共同导致平均交易量随着时间窗口的向前移动而减少
-            </div>
+          </div>
         </div>
         <div class="line box">
           <div>
@@ -48,7 +48,7 @@
         <div class="line">
           <div class="box">
             <div class="title">交易值分布CDF图</div>
-            <my-chart v-if="hasData" :chart-data="txvalueCdf"></my-chart>
+            <my-chart v-if="hasData" :chart-data="txvalueCdf" x-label="value" y-label="Cdf"></my-chart>
           </div>
           <div class="box flex-1">数据集中最新UUG的交易值分布如图3-12所示。
             它显示了大多数交易的值，

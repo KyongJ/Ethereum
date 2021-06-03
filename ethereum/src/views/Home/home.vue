@@ -15,13 +15,15 @@
       <div class="flex-1">
         <div class="box flex">
           <div class="intro">
-            收集了从2015年8月至2018年6月以太坊所有的交易数据，并通过分析构造了三张图，即用户对用户、用户对合约、合约对合约。
-            从度分布、边权重、图大小和局部图结构等几个角度对构造的图进行分析。
+            收集了从2015年8月至2018年6月以太坊所有的交易数据，并通过分析构造了三张交易网络图，即UUG（用户对用户）、UCG（用户对合约）、CCG（合约对合约）。
+            本系统从度分布、边权重、图大小和局部图结构等几个角度对UUG进行分析，从合约创建与合约调用两个角度对UCG和CCG进行分析。
           </div>
         </div>
         <div class="box flex">
-          <div class="title">以太价格走势</div>
-          <div class="chart-dom"><chart-dom></chart-dom></div>
+          <div class="title">以太坊价格演化</div>
+          <div class="chart-dom" v-if="hasData">
+            <my-chart :chart-data="etherValue"></my-chart>
+          </div>
         </div>
       </div>
       <div class="flex-1">
@@ -53,16 +55,16 @@ import userIcon from "../../assets/image/user.png";
 import timeIcon from "../../assets/image/time.png";
 import sumIcon from "../../assets/image/sum.png";
 import valueIcon from "../../assets/image/value.png";
-import chartDom from "../components/chart-dom";
 import ChartCircle from "../components/chart-circle.vue";
 import chartArea from "../components/chart-area.vue";
-
+import myChart from "../components/charts";
+import EtherValueData from "../../assets/js/EtherValue.json";
 import nodeAndTxSumData from "../../assets/js/NodeAndTxSum.json";
 import degreeCdfData from "../../assets/js/degreeCdf.json";
 import txValueCdfData from "../../assets/js/TxValueCdf.json";
 
 export default {
-  components: { chartDom, ChartCircle, chartArea },
+  components: { myChart, ChartCircle, chartArea },
   data() {
     return {
       topData: [
@@ -78,6 +80,11 @@ export default {
       },
       degreeData: {},
       txValueeData: {},
+      etherValue: {
+        xAxis: [],
+        yAxis: [],
+        arr: []
+      },
 
       hasData: false,
       hasCircleData: false,
@@ -88,6 +95,7 @@ export default {
     const date = new Date();
     this.topData[0].num = date.toLocaleDateString();
     this.areaData = this.formatData(nodeAndTxSumData);
+    this.etherValue=this.formatData(EtherValueData);
 
     this.degreeData = this.formatDataCircle(degreeCdfData);
     this.txValueeData = this.formatDataCircle(txValueCdfData);

@@ -8,6 +8,7 @@
 export default {
   props: {
     chartData: Object,
+    xLabel:String,
     yLabel:String
   },
   data() {
@@ -38,7 +39,7 @@ export default {
           },
         },
         xAxis: {
-          name: "time Window ID",
+          name: this.xLabel||"time Window ID",
           nameLocation: "middle",
           nameTextStyle: {
             lineHeight: 40,

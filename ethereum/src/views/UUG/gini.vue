@@ -3,9 +3,9 @@
     <div class="container">
       <div class="chart">
         <div class="line">
-          <div class="box">
+          <div class="box flex-1">
             <div class="title">度分布基尼系数</div>
-            <my-chart v-if="hasData" :chart-data="giniData"  y-label="Degree"></my-chart>
+            <my-chart v-if="hasData" :chart-data="giniData"  y-label="Gini"></my-chart>
           </div>
           <div class="box flex-1">UUG度的基尼系数如图3-12所示，横轴为滑动窗口序号。
             我们发现无论是总体度、入度还是出度基尼系数在0.4以上。
@@ -114,7 +114,7 @@ export default {
   .container {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
 
     .chart {
       width: 80%;
@@ -130,7 +130,8 @@ export default {
       font-weight: bold;
       margin-bottom: 10px;
     }
-
+  
+    
     .box {
       margin-right: 30px;
       padding: 30px;

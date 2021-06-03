@@ -15,7 +15,7 @@
         <div class="line">
           <div class="box">
             <div class="title">平均调用值演化图</div>
-            <my-chart v-if="hasData" :chart-data="ucgValue"></my-chart>
+            <my-chart v-if="hasData" :chart-data="ucgValue" y-label="ether"></my-chart>
           </div>
           <div class="box flex-1">显示了Contract调用契约的次数远远多于EOAs。我们可以得出结论，这些合同主要由Contract调用</div>
         </div>
