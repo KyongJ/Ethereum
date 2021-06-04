@@ -18,7 +18,7 @@ export default {
       var option = {
         color: ["#5E77FF", "#00DDFF", "#37A2FF", "#FF0087", "#FFBF00"],
         title: {
-          text: "用户数、交易数、交易总量时间走势图",
+          text: "用户总数、交易总数时间走势图",
         },
         tooltip: {
           trigger: "axis",

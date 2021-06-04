@@ -35,14 +35,29 @@
             这两个因素共同导致平均交易量随着时间窗口的向前移动而减少
           </div>
         </div>
-        <div class="line box">
-          <div>
-            <div class="title">交易总值演化图</div>
-            <my-chart v-if="hasData" :chart-data="txValue" y-label="Ether"></my-chart>
+        <div class="box">
+          <div class="line">
+            <div>
+              <div class="title">交易总值演化图</div>
+              <my-chart v-if="hasData" :chart-data="txValue" y-label="Ether"></my-chart>
+            </div>
+            <div>
+              <div class="title">平均交易值演化图</div>
+              <my-chart v-if="hasData" :chart-data="avgTxValue" y-label="Ether"></my-chart>
+            </div>
           </div>
-          <div>
-            <div class="title">平均交易值演化图</div>
-            <my-chart v-if="hasData" :chart-data="avgTxValue" y-label="Ether"></my-chart>
+         
+           <div>总价值在第十个时间窗口之前保持非常稳定，几乎没有波动。
+             而之后在第10个窗口和第18个窗口之间经历了飞速增长。
+             在第19个窗口观察到该值的突然下降，并且自第22个窗口以来该值又一次变得稳定。
+             从图中可以发现每笔交易的平均值在第一个窗口和第十个窗口之间减小，
+             并且从大约35个以太减小到17个以太。
+             第11个窗口和第19个窗口之间的交易值在60以太左右振荡。
+             自第21个窗口以来，交易值下降到1以下。
+             右图进一步显示了传入或传出每个节点和每个边的平均值几乎总是随着时间的推移而减小（除了第12个滑动窗口）。
+             可以推测有两个原因导致这种现象，
+             首先，不断到达的新节点、新用户通常会伴有少量的交易，
+             并且因为以太价格不断地上升，导致每笔交易的平均值也越来越低
           </div>
         </div>
         <div class="line">
@@ -50,9 +65,9 @@
             <div class="title">交易值分布CDF图</div>
             <my-chart v-if="hasData" :chart-data="txvalueCdf" x-label="value" y-label="Cdf"></my-chart>
           </div>
-          <div class="box flex-1">数据集中最新UUG的交易值分布如图3-12所示。
+          <div class="box flex-1">数据集中最新UUG的交易值分布如图所示。
             它显示了大多数交易的值，
-            大多数节点和大多数边的交易值都集中在1014Wei和1020Wei之间。</div>
+            大多数节点和大多数边的交易值都集中在10e14Wei和10e20Wei之间。</div>
         </div>
       </div>
     </div>
@@ -172,6 +187,8 @@ export default {
 
     .line {
       display: flex;
+      width: 100%;
+      justify-content: center;
       margin-bottom: 30px;
     }
 

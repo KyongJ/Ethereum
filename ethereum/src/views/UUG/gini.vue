@@ -3,11 +3,11 @@
     <div class="container">
       <div class="chart">
         <div class="line">
-          <div class="box flex-1">
+          <div class="box">
             <div class="title">度分布基尼系数</div>
             <my-chart v-if="hasData" :chart-data="giniData"  y-label="Gini"></my-chart>
           </div>
-          <div class="box flex-1">UUG度的基尼系数如图3-12所示，横轴为滑动窗口序号。
+          <div class="box flex-1">UUG度的基尼系数如图所示，横轴为滑动窗口序号。
             我们发现无论是总体度、入度还是出度基尼系数在0.4以上。
             这意味着无论在哪个时间段，节点的度分布都是不平衡的。
             在滑动图中，入度的基尼系数都小于出度的基尼系数，说明出度的分布比起入度更不平衡。
